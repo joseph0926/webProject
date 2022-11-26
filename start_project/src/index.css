@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&family=Noto+Sans+KR:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap");
+/*
+폰트
+font-family: 'Roboto', sans-serif; -> 메인
+font-family: 'Nerko One', cursive; -> 특정부분(살짝 굴림체)
+font-family: 'Noto Sans KR', sans-serif; -> 한글 메인
+임의로 유명한것들로 정했는데 원하시는거 있으시면 바꾸거나 추가하셔도될거같습니다!
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --c-dark: rgb(0, 0, 0);
+  --c-dark-gra: linear-gradient(0deg, rgb(0, 0, 0), rgb(33, 17, 17));
+  --c-dark-red: rgb(255, 0, 0);
+  --c-dark-red-pri: rgb(170, 51, 51);
+
+  --c-white: #fff;
+  --c-white-green: rgb(0, 128, 0);
+  --c-white-green-pri: rgb(64, 152, 64);
+}
