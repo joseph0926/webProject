@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 import { BiSearch } from "react-icons/bi";
 import { FaUserAlt } from "react-icons/fa";
@@ -18,7 +19,7 @@ const Navbar = () => {
   return (
     <Wrapper>
       <div className="logo">
-        <h1>Logo</h1>
+        <Link to="/">Logo</Link>
       </div>
       <div className="search">
         <BiSearch></BiSearch>
@@ -49,8 +50,9 @@ const Wrapper = styled.nav`
   background: var(--c-white);
   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
 
-  .logo {
-    font-size: 2rem;
+  .logo a {
+    font-size: 2.5rem;
+    font-weight: 700;
     color: black;
   }
 
