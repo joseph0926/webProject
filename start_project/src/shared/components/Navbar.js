@@ -46,12 +46,12 @@ const Wrapper = styled.nav`
   align-items: center;
   justify-content: space-between;
   padding: 0 2rem;
-  background: #999;
+  background: var(--c-white);
   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
 
   .logo {
     font-size: 2rem;
-    color: #fff;
+    color: black;
   }
 
   .search {

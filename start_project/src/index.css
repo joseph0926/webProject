@@ -29,7 +29,7 @@ html {
   --c-dark-red: rgb(255, 0, 0);
   --c-dark-red-pri: rgb(170, 51, 51);
 
-  --c-white: #fff;
-  --c-white-green: rgb(0, 128, 0);
-  --c-white-green-pri: rgb(64, 152, 64);
+  --c-white: rgb(234, 234, 234);
+  --c-green: rgb(0, 255, 0);
+  --c-white-green-pri: rgb(144, 220, 144);
 }
